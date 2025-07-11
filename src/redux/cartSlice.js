@@ -9,8 +9,9 @@ export const slice = createSlice({
 
     reducers: {
         addItemToCart:(state, action) => {
+            console.log (action);
             state.cartItems.push ({
-                dishId: action.payload.dishId,
+                dishId: action.payload.dish.id,
                 quantity: action.payload.quantity
             })
         }
