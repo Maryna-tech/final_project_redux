@@ -40,4 +40,3 @@ export const getCartItems = state => state.cart.cartItems;
 export const {addItemToCart, removeItemFromCart} = slice.actions;
 export default slice.reducer
 
-
