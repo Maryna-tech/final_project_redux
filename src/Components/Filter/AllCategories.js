@@ -6,9 +6,13 @@ const AllCategories = () => {
 
         {/*MAP*/}
         {["SEAFOOD", "ITALIAN", "APPETIZERS", "SALADS", "ALL"].map(
+<<<<<<< HEAD
             category => (
             <Filter key = {category} category = {category}/>
         ))}
+=======
+            category => <Filter category = {category}/>)}
+>>>>>>> 3fd1bdfb96ada0e5e44128c60c229aa9b20f658c
         
     </div>)
 }
